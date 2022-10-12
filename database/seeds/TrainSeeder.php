@@ -1,9 +1,9 @@
 <?php
 
-use App\TrainSeeder;
+use App\Train;
 use Illuminate\Database\Seeder;
 
-class TrainsSeeder extends Seeder
+class TrainSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -52,6 +52,28 @@ class TrainsSeeder extends Seeder
                 'arrival_station' => 'Canzo',
                 'departure_time' => '14:42:00',
                 'arrival_time' => '15:50:00',
+                'train_code' => 'F645L8',
+                'train_length' => rand(1,50),
+                'in_time' => rand(0,1),
+                'deleted' => rand(0,1)
+            ],
+            [
+                'company' => 'Trenord',
+                'departure_station' => 'Milano Cadorna',
+                'arrival_station' => 'Canzo',
+                'departure_time' => '08:42:00',
+                'arrival_time' => '09:50:00',
+                'train_code' => 'F645L8',
+                'train_length' => rand(1,50),
+                'in_time' => rand(0,1),
+                'deleted' => rand(0,1)
+            ],
+            [
+                'company' => 'Trenord',
+                'departure_station' => 'Milano Cadorna',
+                'arrival_station' => 'Canzo',
+                'departure_time' => '16:42:00',
+                'arrival_time' => '17:50:00',
                 'train_code' => 'F645L8',
                 'train_length' => rand(1,50),
                 'in_time' => rand(0,1),
