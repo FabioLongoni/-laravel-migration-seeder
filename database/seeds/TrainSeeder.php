@@ -3,7 +3,7 @@
 use App\TrainSeeder;
 use Illuminate\Database\Seeder;
 
-class TrainSeeder extends Seeder
+class TrainsSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -17,8 +17,8 @@ class TrainSeeder extends Seeder
                 'company' => 'RFI',
                 'departure_station' => 'Milano Centrale',
                 'arrival_station' => 'Napoli',
-                'departure_time' => '',
-                'arrival_time' => '',
+                'departure_time' => '19:10:00',
+                'arrival_time' => '24:00:00',
                 'train_code' => 'F645L8',
                 'train_length' => rand(1,50),
                 'in_time' => rand(0,1),
@@ -28,8 +28,8 @@ class TrainSeeder extends Seeder
                 'company' => 'Trenitalia',
                 'departure_station' => 'Roma Termini',
                 'arrival_station' => 'Firenze',
-                'departure_time' => '',
-                'arrival_time' => '',
+                'departure_time' => '10:10:00',
+                'arrival_time' => '12:00:00',
                 'train_code' => 'D348L8',
                 'train_length' => rand(1,50),
                 'in_time' => rand(0,1),
@@ -39,8 +39,8 @@ class TrainSeeder extends Seeder
                 'company' => 'Italferr',
                 'departure_station' => 'Bologna',
                 'arrival_station' => 'Firenze',
-                'departure_time' => '',
-                'arrival_time' => '',
+                'departure_time' => '13:10:00',
+                'arrival_time' => '16:00:00',
                 'train_code' => 'H685M8',
                 'train_length' => rand(1,50),
                 'in_time' => rand(0,1),
@@ -50,8 +50,8 @@ class TrainSeeder extends Seeder
                 'company' => 'Trenord',
                 'departure_station' => 'Milano Cadorna',
                 'arrival_station' => 'Canzo',
-                'departure_time' => '',
-                'arrival_time' => '',
+                'departure_time' => '14:42:00',
+                'arrival_time' => '15:50:00',
                 'train_code' => 'F645L8',
                 'train_length' => rand(1,50),
                 'in_time' => rand(0,1),
